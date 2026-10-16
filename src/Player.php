@@ -13,7 +13,7 @@ use SugarCraft\Core\Model;
 use SugarCraft\Core\Msg;
 use SugarCraft\Core\Msg\KeyMsg;
 use SugarCraft\Core\Msg\WindowSizeMsg;
-use SugarCraft\Mosaic\Mosaic;
+use SugarCraft\Image\Mosaic;
 use SugarCraft\Palette\Probe;
 use SugarCraft\Palette\Probe\Capability;
 use SugarCraft\Video\Decode\Decoder;

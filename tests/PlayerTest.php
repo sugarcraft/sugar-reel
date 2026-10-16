@@ -1281,7 +1281,7 @@ final class PlayerTest extends TestCase
 
     /**
      * Regression for F14. The inline Player::frameToBuffer HalfBlock path
-     * and the standalone HalfBlockRenderer (candy-mosaic via sugar-video's
+     * and the standalone HalfBlockRenderer (sugar-image via sugar-video's
      * HalfBlockRenderer) must both emit the same ▀ cell with fg/bg SGR.
      * This guards against the two paths drifting after geometry changes.
      */
